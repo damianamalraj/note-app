@@ -18,4 +18,3 @@ web-build/
 
 # Coustom secrets
 .env
-firebase.ts

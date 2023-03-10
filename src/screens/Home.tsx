@@ -15,7 +15,6 @@ const Home = () => {
         if (!user) {
           navigation.navigate('Login');
         }
-        console.log(`process.env.APIKEY ✅🥲 👉`, process.env.APIKEY);
         setUser(user);
       });
     })();
